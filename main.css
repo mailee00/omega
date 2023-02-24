@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/patternidk.png"), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 21.76%,rgba(167,138,255,1.00) 100%);
+    background-image: url("images/patternidk.png"), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 21.76%,rgba(167,138,255,1.00) 100%);
+    background-image: url("images/patternidk.png"), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 21.76%,rgba(167,138,255,1.00) 100%);
+    background-image: url("images/patternidk.png"), linear-gradient(180deg,rgba(255,255,255,1.00) 21.76%,rgba(167,138,255,1.00) 100%);
+    background-repeat: repeat;
+    background-color: #6D3DFF;
+}
+
+h2 {
+	color:white;
+}
+
+nav {
+	width:100%;
+	height:75px;
+	padding:10px;
+	background-color:#CEFF3B;
+	text-align:center;
+	font-size:20px;
+}
+
+footer{
+	width:100%;
+	height:75px;
+	padding:10px;
+	background-color:#542FC4;
+	text-align:center;
+}
+
+aside{
+	width:250px;
+	height:680px;
+	margin:auto;
+	margin-top:40px;
+	margin-right:25px;
+	margin-bottom:0px;
+	margin-left:25px;
+	padding:10px;
+	background-color:#A78AFF;
+	border-style:solid;
+	border-color:#6C3BFF;
+}
+
+.banner {
+	width:1500px;
+	height:150px;
+	margin:auto;
+	padding:20px;
+	background-color:hsla(0,0%,0%,0.20);
+	color:#6C3BFF;
+	text-align:center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container {
+	width:1500px;
+	height:760px;
+	margin:auto;
+}
+
+#p1 {
+	width:1200px;
+	height:760px;
+	float:left;
+}
+
+#p2 {
+	width:300px;
+	height:760px;
+	float:right;
+}
+
+.personal {
+	
+	width:1150px;
+	height:330px;
+	margin:40px 25px 10px 25px;
+	padding:10px;
+	float:left;
+	background-color:#6C3BFF;
+}
+
+.learn{
+	width:350px;
+	height:330px;
+	margin:10px 10px 40px 25px;
+	padding:10px;
+	float:left;
+	clear:left;
+	border-style:solid;
+	border-color:#6C3BFF;
+	background-color:#FFFFFF;
+}
+
+.hire {
+	width:780px;
+	height:330px;
+	margin:10px 0px 40px 10px;
+	padding:10px;
+	float:left;
+	border-style:solid;
+	border-color:#6C3BFF;
+	background-color:#FFFFFF;
+}
